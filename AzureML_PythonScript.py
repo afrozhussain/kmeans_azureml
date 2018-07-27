@@ -34,5 +34,6 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
     
     print(centers)
         
-      
+    
+   
     return pd.DataFrame(kmeans.cluster_centers_)
